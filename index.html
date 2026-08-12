@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal student website showcasing school life, subjects, skills, achievements, and activities.">
+  <title>Lubna & zeina Website</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">Lubna & zeina<span></span></a>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <div id="nav-links" class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#subjects">Subjects & Skills</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">WELCOME TO MY WEBSITE</p>
+          <h1>Hi, I'm <span>Lubna & Zeina</span></h1>
+          <p class="hero-text">A motivated student who enjoys mathematics, teamwork, and basketball.</p>
+          <div class="button-row">
+            <a class="btn primary" href="#about">About Me</a>
+            <a class="btn secondary" href="#achievements">My Achievements</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Student introduction">
+          <div class="avatar">L&Z</div>
+          <h2>About Lubna & Zeina </h2>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About Me</h2>
+        <div class="about-grid">
+          <div class="panel">
+            <p>
+              We are two girls who are passionate about developing our life and social skills. 
+              We enjoy playing basketball, volunteering in summer camps, and traveling.
+               We are always ready to learn, grow, and become better versions of ourselves.
+            </p>
+          </div>
+          <ul class="facts panel">
+            <li><strong>School</strong><span>Lubna's school:pioneers baccalaureate school <br>Zeina's school : talaea al amal </span></li>
+            <li><strong>Grade</strong><span>10th grade</span></li>
+            <li><strong>Hobbies</strong><span>Sports and watching movies</span></li>
+            <li><strong>Goal</strong><span>Keep learning and improving</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="subjects" class="section alt">
+      <div class="container">
+        <p class="eyebrow">WHAT I LEARN</p>
+        <h2>My Subjects & Skills</h2>
+
+        <div class="subject-split">
+          <div class="subject-column">
+            <h3 class="person-title">Lubna</h3>
+            <article class="card">
+              <h3>Favorite Subjects</h3>
+              <div class="tag-row">
+                <span class="tag">Biology</span>
+                <span class="tag">Mathematics</span>
+                <span class="tag">English</span>
+                <span class="tag">Science</span>
+              </div>
+            </article>
+            <article class="card">
+              <h3>Tech Skills</h3>
+              <div class="tag-row">
+                <span class="tag">Teamwork</span>
+                <span class="tag">Communication</span>
+                <span class="tag">Creativity</span>
+                <span class="tag">Leadership</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="subject-column">
+            <h3 class="person-title">Zeina</h3>
+            <article class="card">
+              <h3>Favorite Subjects</h3>
+              <div class="tag-row">
+                <span class="tag">Biology</span>
+                <span class="tag">Arabic</span>
+                <span class="tag">sport</span>
+                <span class="tag">English</span>
+              </div>
+            </article>
+            <article class="card">
+              <h3>Tech Skills</h3>
+              <div class="tag-row">
+                <span class="tag">Teamwork</span>
+                <span class="tag">Communication</span>
+                <span class="tag">Creativity</span>
+                <span class="tag">Leadership</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="section">
+      <div class="container">
+        <p class="eyebrow">MY SCHOOL LIFE</p>
+        <h2>Achievements & Activities</h2>
+
+        <div class="filter-row" role="group" aria-label="Achievement filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="academic">Academic</button>
+          <button class="filter" data-filter="club">Course</button>
+          <button class="filter" data-filter="sports">Sports</button>
+        </div>
+
+        <div class="achievement-split">
+          <div class="achievement-column">
+            <h3 class="person-title">Lubna</h3>
+            <article class="achievement-card" data-category="academic">
+              <span class="category">Academic</span>
+              <h3>Biology</h3>
+              <p>Participated in a school biology and presented a project to the teacher.</p>
+            </article>
+            <article class="achievement-card" data-category="club">
+              <span class="category">Course</span>
+              <h3>Technology course</h3>
+              <p>Participated and created new websites</p>
+            </article>
+            <article class="achievement-card" data-category="sports">
+              <span class="category">Sports</span>
+              <h3>Sports</h3>
+              <p>went out with the academy team to play a match.</p>
+            </article>
+          </div>
+
+          <div class="achievement-column">
+            <h3 class="person-title">Zeina</h3>
+            <article class="achievement-card" data-category="academic">
+              <span class="category">Academic</span>
+              <h3>Arabic</h3>
+              <p>Helped my classmates with their arabic homeworks and got a bonus.</p>
+            </article>
+            <article class="achievement-card" data-category="club">
+              <span class="category">Course</span>
+              <h3>Technology course</h3>
+              <p>Practiced coding and worked with classmates.</p>
+            </article>
+            <article class="achievement-card" data-category="sports">
+              <span class="category">Sports</span>
+              <h3>Sports</h3>
+              <p>Took part in academy sports activities and learned the importance of teamwork.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>Contact Me</h2>
+          <p>If you would like to contact me about school activities or projects, send a message using the form.</p>
+          <p><strong>Email:</strong> student@example.com</p>
+        </div>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name">
+            <small class="error" id="name-error"></small>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com">
+            <small class="error" id="email-error"></small>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message..."></textarea>
+            <small class="error" id="message-error"></small>
+          </div>
+          <button class="btn primary" type="submit">Send Message</button>
+          <p id="form-status" class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Lubna & Zeina. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
